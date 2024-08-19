@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo de Programador de TI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="imagens/Fotodeperfil.jpg" alt="Foto de Perfil" class="perfil">
+        <div class="texto">
+            <h1>Thiago de Jesus Santos</h1>
+            <p>Programador de TI | Desenvolvedor Full Stack</p>
+        </div>
+    </header>
+    
+
+    <nav>
+        <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#experiencia">Experiência</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <p>Sou um programador</p>
+    </section>
+
+    <section id="habilidades">
+        <h2>Habilidades</h2>
+        <div class="skill">
+            <span>HTML</span>
+            <div class="progress-bar">
+                <div class="progress" style="width: 3%;"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <span>CSS</span>
+            <div class="progress-bar">
+                <div class="progress" style="width: 2%;"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <span>JavaScript</span>
+            <div class="progress-bar">
+                <div class="progress" style="width: 1%;"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experiencia">
+        <h2>Experiência</h2>
+        <ul>
+            <li>
+                <strong>Empresa X:</strong> Desenvolvedor Web (2020-2023)
+                <img src="imagens/projeto1.webp" alt="Imagem de Projeto 1">
+            </li>
+            <li>
+                <strong>Empresa Y:</strong> Estagiário de Desenvolvimento (2018-2020)
+                <img src="imagens/projeto3.jpg" alt="Imagem de Projeto 2">
+            </li>
+        </ul>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <form id="contactForm">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+        <p id="feedback"></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Thiago</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
